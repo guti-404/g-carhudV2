@@ -1,0 +1,156 @@
+@font-face{
+    font-family: bango;
+    src: url(/html/fonts/bankgothic.ttf)
+}
+
+body {
+    overflow: hidden;
+}
+
+* {
+    font-size: 0vw;
+}
+
+/*--- VELOCIDAD ---*/
+
+[class="velocidad"] {
+    position: absolute;
+    left: 20%;
+    bottom: 5vw;
+    width: 6vw;
+    height: 2.5vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: .4vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+}
+
+[class="velocidad-texto"] {
+    position: absolute;
+    left: 1.5vw;
+    top: .3vw;
+    font-family: bango;
+    font-size: 1.4vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 .2vw rgba(0, 0, 0, .5);
+}
+
+[class="km"] {
+    position: absolute;
+    left: 4vw;
+    top: 1.15vw;
+    font-family: bango;
+    font-size: .60vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 .2vw rgba(0, 0, 0, .5);
+}
+
+/*--- GASOLINA ---*/
+
+[class="gasolina"] {
+    position: absolute;
+    left: 20%;
+    bottom: 3.5vw;
+    width: 6vw;
+    height: 1vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: .4vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+}
+
+[class="fas fa-gas-pump"] {
+    position: absolute;
+    font-size: .70vw;
+    left: 10%;
+    bottom: 15%;
+    color: rgb(255, 255, 255);
+    transition: .5s;
+}
+
+[class="progressBarFuel"] {
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 1.8vw;
+    transform: translateY(-50%);
+    width: 3.5vw;
+    height: .2vw;
+    border-radius: 15px;
+}
+
+[class="progressFuel"] {
+    position: absolute;
+    bottom: 0%;
+    max-height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 1vw;
+    transition: .5s;
+}
+
+/*--- MOTOR ---*/
+
+[class="motor"] {
+    position: absolute;
+    left: 18%;
+    bottom: 5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: .4vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+[class="fas fa-engine-warning"] {
+    position: absolute;
+    font-size: .70vw;
+    left: 22%;
+    bottom: 25%;
+    /* color: rgb(255, 255, 255); */
+    transition: .5s;
+}
+
+/*--- CINTURON ---*/
+
+[class="cinturon"] {
+    position: absolute;
+    left: 26.55%;
+    bottom: 5vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: .4vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+}
+
+[class="seatbelt"] {
+    position: absolute;
+    width: 15px;
+    left: 25%;
+    top: 20%;
+}
+
+/*--- CALLES ---*/
+
+[class="calles"] {
+    position: absolute;
+    top: -10vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: fit-content !important;
+    height: 1.5vw;
+    padding: 0 .4vw;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 .3vw rgba(0, 0, 0, 1);
+    border-radius: .5vh;
+}
+
+[class="calles-text"] {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: bango;
+    font-size: .8vw;
+    color: #ccc;
+}
